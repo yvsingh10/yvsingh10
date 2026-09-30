@@ -45,6 +45,18 @@ const yash = {
 
 ---
 
+### 🔥 GitHub Streak
+
+<div align="center">
+  <a href="https://github.com/yvsingh10">
+    <img src="https://streak-stats.demolab.com?user=yvsingh10&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak" />
+  </a>
+</div>
+
+<br/>
+
+---
+
 ### 🐍 Contribution Activity (Snake Animation)
 
 <!-- 

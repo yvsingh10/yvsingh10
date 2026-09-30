@@ -50,18 +50,18 @@ const yash = {
 <div align="center">
   <!-- GitHub Streak Stats (Animated) -->
   <a href="https://github.com/yvsingh10">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=yvsingh10&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com?user=yvsingh10&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak" />
   </a>
   <br/><br/>
   
   <!-- GitHub Stats Card -->
   <a href="https://github.com/yvsingh10">
-    <img src="https://github-readme-stats.vercel.app/api?username=yvsingh10&show_icons=true&theme=tokyonight&hide_border=true&border_radius=8&count_private=true" alt="GitHub stats" height="165" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=yvsingh10&show_icons=true&theme=tokyonight&hide_border=true&border_radius=8&count_private=true" alt="GitHub stats" height="165" />
   </a>
   
   <!-- Top Languages Card -->
   <a href="https://github.com/yvsingh10">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yvsingh10&layout=compact&theme=tokyonight&hide_border=true&border_radius=8" alt="Top Langs" height="165" />
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=yvsingh10&layout=compact&theme=tokyonight&hide_border=true&border_radius=8" alt="Top Langs" height="165" />
   </a>
   <br/><br/>
 

@@ -1,0 +1,117 @@
+﻿generate	Set up job	∩╗┐2026-09-30T05:43:19.6357243Z Current runner version: '2.337.0'
+generate	Set up job	2026-09-30T05:43:19.6380130Z ##[group]Runner Image Provisioner
+generate	Set up job	2026-09-30T05:43:19.6380939Z Hosted Compute Agent
+generate	Set up job	2026-09-30T05:43:19.6381431Z Version: 20260901.588
+generate	Set up job	2026-09-30T05:43:19.6381993Z Commit: f88ec8081b781fac6c440065ac7ff9e710ce3d0b
+generate	Set up job	2026-09-30T05:43:19.6382590Z Build Date: 2026-09-01T19:56:44Z
+generate	Set up job	2026-09-30T05:43:19.6383127Z Worker ID: {f9a6c320-d9a7-46f2-9edd-0887b99d7be3}
+generate	Set up job	2026-09-30T05:43:19.6383806Z Azure Region: westus3
+generate	Set up job	2026-09-30T05:43:19.6384517Z ##[endgroup]
+generate	Set up job	2026-09-30T05:43:19.6386133Z ##[group]Operating System
+generate	Set up job	2026-09-30T05:43:19.6386721Z Ubuntu
+generate	Set up job	2026-09-30T05:43:19.6387142Z 24.04.5
+generate	Set up job	2026-09-30T05:43:19.6387653Z LTS
+generate	Set up job	2026-09-30T05:43:19.6388080Z ##[endgroup]
+generate	Set up job	2026-09-30T05:43:19.6388560Z ##[group]Runner Image
+generate	Set up job	2026-09-30T05:43:19.6389057Z Image: ubuntu-24.04
+generate	Set up job	2026-09-30T05:43:19.6389523Z Version: 20260927.320.1
+generate	Set up job	2026-09-30T05:43:19.6390455Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260927.320/images/ubuntu/Ubuntu2404-Readme.md
+generate	Set up job	2026-09-30T05:43:19.6391962Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260927.320
+generate	Set up job	2026-09-30T05:43:19.6392752Z ##[endgroup]
+generate	Set up job	2026-09-30T05:43:19.6393725Z ##[group]GITHUB_TOKEN Permissions
+generate	Set up job	2026-09-30T05:43:19.6395664Z Contents: write
+generate	Set up job	2026-09-30T05:43:19.6396182Z Metadata: read
+generate	Set up job	2026-09-30T05:43:19.6396712Z ##[endgroup]
+generate	Set up job	2026-09-30T05:43:19.6398497Z Secret source: Actions
+generate	Set up job	2026-09-30T05:43:19.6399407Z Cache mode: write
+generate	Set up job	2026-09-30T05:43:19.6400184Z Prepare workflow directory
+generate	Set up job	2026-09-30T05:43:19.6707270Z Prepare all required actions
+generate	Set up job	2026-09-30T05:43:19.6751440Z Getting action download info
+generate	Set up job	2026-09-30T05:43:19.9706631Z Download action repository 'Platane/snk@v3' (SHA:d8f6715049803e982ee5ff501b6b9b7d5deeb09b)
+generate	Set up job	2026-09-30T05:43:20.6251957Z Download action repository 'crazy-max/ghaction-github-pages@v3.1.0' (SHA:c0d7ff0487ee0415efb7f32dab10ea880330b1dd)
+generate	Set up job	2026-09-30T05:43:21.0928174Z Complete job name: generate
+generate	Generate github-contribution-grid-snake.svg	∩╗┐2026-09-30T05:43:21.1576384Z ##[group]Run Platane/snk/svg-only@v3
+generate	Generate github-contribution-grid-snake.svg	2026-09-30T05:43:21.1577666Z with:
+generate	Generate github-contribution-grid-snake.svg	2026-09-30T05:43:21.1578371Z   github_user_name: yvsingh10
+generate	Generate github-contribution-grid-snake.svg	2026-09-30T05:43:21.1580096Z   outputs: dist/github-contribution-grid-snake.svg
+generate	Generate github-contribution-grid-snake.svg	dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+generate	Generate github-contribution-grid-snake.svg	
+generate	Generate github-contribution-grid-snake.svg	2026-09-30T05:43:21.1588636Z   github_token: ***
+generate	Generate github-contribution-grid-snake.svg	2026-09-30T05:43:21.1589565Z env:
+generate	Generate github-contribution-grid-snake.svg	2026-09-30T05:43:21.1596836Z   GITHUB_TOKEN: ***
+generate	Generate github-contribution-grid-snake.svg	2026-09-30T05:43:21.1597584Z ##[endgroup]
+generate	Generate github-contribution-grid-snake.svg	2026-09-30T05:43:21.1921617Z ≡ƒÄú fetching user contribution from github
+generate	Generate github-contribution-grid-snake.svg	2026-09-30T05:43:21.7373586Z ≡ƒôí computing best route
+generate	Generate github-contribution-grid-snake.svg	2026-09-30T05:43:24.6854096Z ≡ƒûî creating svg (outputs[0])
+generate	Generate github-contribution-grid-snake.svg	2026-09-30T05:43:24.6862868Z ≡ƒûî creating svg (outputs[1])
+generate	Generate github-contribution-grid-snake.svg	2026-09-30T05:43:24.6944473Z ≡ƒÆ╛ writing to dist/github-contribution-grid-snake.svg
+generate	Generate github-contribution-grid-snake.svg	2026-09-30T05:43:24.6946083Z ≡ƒÆ╛ writing to dist/github-contribution-grid-snake-dark.svg
+generate	Push github-contribution-grid-snake.svg to the output branch	∩╗┐2026-09-30T05:43:24.7185070Z ##[group]Run crazy-max/ghaction-github-pages@v3.1.0
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:24.7185389Z with:
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:24.7185568Z   target_branch: output
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:24.7185753Z   build_dir: dist
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:24.7185936Z   domain: github.com
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:24.7186112Z   keep_history: false
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:24.7186313Z   allow_empty_commit: true
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:24.7186505Z   absolute_build_dir: false
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:24.7186698Z   follow_symlinks: false
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:24.7186894Z   jekyll: true
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:24.7187052Z   dry_run: false
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:24.7187223Z   verbose: false
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:24.7187375Z env:
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:24.7189506Z   GITHUB_TOKEN: ***
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:24.7189713Z ##[endgroup]
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.3778924Z ##[group]Initializing local git repo
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.3787346Z [command]/usr/bin/git init .
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.3967354Z hint: Using 'master' as the name for the initial branch. This default branch name
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.3968154Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.3968810Z hint: to use in all of your new repositories, which will suppress this warning,
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.3969260Z hint: call:
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.3969784Z hint:
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.3970118Z hint: 	git config --global init.defaultBranch <name>
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.3970475Z hint:
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.3970822Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.3971455Z hint: 'development'. The just-created branch can be renamed via this command:
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.3971944Z hint:
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.3972179Z hint: 	git branch -m <name>
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.3972456Z hint:
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.3972838Z hint: Disable this message with "git config set advice.defaultBranchName false"
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.3973485Z Initialized empty Git repository in /tmp/github-pages-CCxU62/.git/
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.3983831Z [command]/usr/bin/git checkout --orphan output
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.4020395Z Switched to a new branch 'output'
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.4026193Z ##[endgroup]
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.4027224Z ##[group]Copying /home/runner/work/yvsingh10/yvsingh10/dist to /tmp/github-pages-CCxU62
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.4047081Z ...3 file(s) copied.
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.4047610Z ##[endgroup]
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.4097738Z ##[group]Configuring git committer
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.4105738Z [command]/usr/bin/git config user.name GitHub
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.4144113Z [command]/usr/bin/git config user.email noreply@github.com
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.4166765Z ##[endgroup]
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.4196627Z ##[group]Updating index of working tree
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.4205087Z [command]/usr/bin/git add --all .
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.4242515Z ##[endgroup]
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.4243732Z ##[group]Committing changes
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.4253046Z [command]/usr/bin/git commit --allow-empty --author github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> --message Deploy to GitHub pages
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.5114583Z [output (root-commit) f7b0740] Deploy to GitHub pages
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.5115251Z  Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.5115640Z  2 files changed, 2 insertions(+)
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.5115922Z  create mode 100644 github-contribution-grid-snake-dark.svg
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.5116230Z  create mode 100644 github-contribution-grid-snake.svg
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.5159177Z commit f7b0740d43d112a0e926689c96dbec8b7e925d83
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.5159618Z Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.5160049Z Date:   Wed Sep 30 05:43:25 2026 +0000
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.5160266Z 
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.5160351Z     Deploy to GitHub pages
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.5160479Z 
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.5160600Z  github-contribution-grid-snake-dark.svg | 1 +
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.5160977Z  github-contribution-grid-snake.svg      | 1 +
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.5161264Z  2 files changed, 2 insertions(+)
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.5161967Z ##[endgroup]
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.5162496Z ##[group]Pushing dist directory to output branch on yvsingh10/yvsingh10 repo
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:25.5171505Z [command]/usr/bin/git push --force ***github.com/yvsingh10/yvsingh10.git output
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:27.0469308Z To https://github.com/yvsingh10/yvsingh10.git
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:27.0470255Z  ! [remote rejected] output -> output (cannot lock ref 'refs/heads/output': reference already exists)
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:27.0470986Z error: failed to push some refs to 'https://github.com/yvsingh10/yvsingh10.git'
+generate	Push github-contribution-grid-snake.svg to the output branch	2026-09-30T05:43:27.0505074Z ##[error]The process '/usr/bin/git' failed with exit code 1
+generate	Complete job	∩╗┐2026-09-30T05:43:27.0612764Z Cleaning up orphan processes
+generate	Complete job	2026-09-30T05:43:27.0847328Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: crazy-max/ghaction-github-pages@v3.1.0. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

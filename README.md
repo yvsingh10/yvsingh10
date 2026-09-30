@@ -81,7 +81,11 @@ const yash = {
 NOTE: To activate the auto-moving snake, configure the GitHub Action provided in your workflow!
 -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/yvsingh10/yvsingh10/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yvsingh10/yvsingh10/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yvsingh10/yvsingh10/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/yvsingh10/yvsingh10/output/github-contribution-grid-snake.svg" />
+  </picture>
 </div>
 
 <br/>

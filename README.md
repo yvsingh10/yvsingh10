@@ -45,11 +45,29 @@ const yash = {
 
 ---
 
-### 🔥 GitHub Streak
+### 📊 GitHub Stats
 
 <div align="center">
+  <!-- GitHub Streak Stats -->
   <a href="https://github.com/yvsingh10">
     <img src="https://streak-stats.demolab.com?user=yvsingh10&theme=tokyonight&hide_border=true&border_radius=8" alt="GitHub Streak" />
+  </a>
+  <br/><br/>
+
+  <!-- GitHub Stats Card -->
+  <a href="https://github.com/yvsingh10">
+    <img src="https://github-readme-stats.vercel.app/api?username=yvsingh10&show_icons=true&theme=tokyonight&hide_border=true&border_radius=8&count_private=true" alt="GitHub stats" height="165" />
+  </a>
+
+  <!-- Top Languages Card -->
+  <a href="https://github.com/yvsingh10">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yvsingh10&layout=compact&theme=tokyonight&hide_border=true&border_radius=8" alt="Top Langs" height="165" />
+  </a>
+  <br/><br/>
+
+  <!-- Contribution Activity Graph -->
+  <a href="https://github.com/yvsingh10">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=yvsingh10&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" width="100%" />
   </a>
 </div>
 
@@ -80,10 +98,7 @@ NOTE: To activate the auto-moving snake, configure the GitHub Action provided in
   <a href="https://www.linkedin.com/in/yvsingh10/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>&nbsp;&nbsp;
-  <a href="https://twitter.com/YOUR_TWITTER" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
-  </a>&nbsp;&nbsp;
-  <a href="mailto:your_email@example.com">
+  <a href="mailto:2025442587.yash@ug.sharda.ac.in">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </div>
